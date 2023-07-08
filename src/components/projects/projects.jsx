@@ -1,7 +1,7 @@
 import "./projects.css";
 
-const projects = () => {
+const Projects = () => {
   return "Projects";
 };
 
-export default projects;
+export default Projects;

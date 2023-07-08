@@ -17,7 +17,7 @@ body {
     "main"
     "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr 3.5rem;
+  grid-template-rows: 4rem 1fr 4.5rem;
   height: 100%;
   min-height: 100vh;
 }
@@ -28,9 +28,10 @@ header {
 main {
   grid-area: main;
   padding: 1rem;
+  background-color: #003566;
 }
 footer {
   grid-area: footer;
-  background-color: #003566;
+  background-color: #001D3D;
   color: #ffffff;
 }

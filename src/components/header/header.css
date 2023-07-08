@@ -1,3 +1,33 @@
-.navbar {
+nav {
+  background-color: #000814;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+  color: #ffc300;
+  height: 100%;
+}
+#navbarToggleExternalContent {
+  position: absolute;
+  top: 35px;
   background-color: azure;
+  width: 100vw;
+  color: #ffc300;
+}
+.navbar-brand {
+  color: #ffc300;
+}
+.navbar-brand:hover {
+  color: #ffd60a;
+}
+.nav-bar-menu > li > a {
+  color: #fff;
+  display: block;
+  height: 100%;
+  border-bottom: #000814 2px solid;
+}
+.nav-bar-menu > li > a:hover {
+  color: #ffc300;
+  border-bottom: #ffc300 2px solid;
 }
